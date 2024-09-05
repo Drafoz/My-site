@@ -1,0 +1,61 @@
+body {
+    background: black;
+    color:purple;
+    margin: 0px;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 25px
+}
+
+header {
+    border-bottom:solid 1px rgb(255, 146, 164);
+    padding: 20px;
+    font-size: 32px;
+    color: pink;
+}
+
+section{
+    background: rgb(64, 32, 63);
+    padding-bottom: 60px;
+    padding-top: 53px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+
+}
+
+h1{
+    font-size: 35px
+}
+
+ p{
+    font-size: 20px
+ }
+
+ .maisdrift{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px
+ }
+ .maisgrip{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
+ }
+
+.maisdrift img{
+    opacity: 0.5;
+    height: 200px
+}
+
+.maisdrift img:hover{
+    opacity: 1;
+    border: 2px solid rgb(2, 2, 99)
+}
+
+.drifts h2 {
+    color: rgb(88, 2, 88);
+}
